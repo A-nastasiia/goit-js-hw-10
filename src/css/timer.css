@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .calendars {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	padding-bottom: 32px;
+  }
+  .frame {
+	display: flex;
+	flex-direction: row;
+	border-radius: 4px;
+	width: 272px;
+	height: 40px;
+	background: #fff;
+  }
+  
+  .frame:hover {
+	border-color: #000000;
+  }
+  .frame:focus {
+	border-color: #4e75ff;
+	outline: none;
+  }
+  .frame:disabled {
+	border-color: #808080;
+	cursor: not-allowed;
+  }
+  
+  .date {
+	padding-left: 16px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #2e2f42;
+  }
+  .btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 10px;
+	height: 40px;
+	border: 0;
+	border-radius: 8px;
+	padding: 8px 16px;
+	width: 75px;
+	height: 40px;
+	background: #cfcfcf;
+  }
+  
+  .btn:hover {
+	background: #6c8cff;
+  }
+  .btn:disabled {
+	background: #cfcfcf;
+  }
+  
+  .timer {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: row;
+	gap: 24px;
+	height: 72px;
+  }
+  .field {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .value {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+	color: #2e2f42;
+  }
+  .label {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #2e2f42;
+  }
